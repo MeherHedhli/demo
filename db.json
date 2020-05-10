@@ -1,123 +1,127 @@
-[
-    {
-        "id": "start",
-        "title": "Nous allons faire rapide & simple",
-        "questions": [
-            {
-                "key": "S01",
-                "text": "Quelle(s) pièce(s) souhaitez-vous aménager ?",
-                "byline": "Votre projet comprend plusieurs pièces ? Vous pouvez en sélectionnez autant que vous voulez dans le cadre du forfait multi-pièces.",
-                "completed": false,
-                "type": "room-choice",
-                "items": [],
-                "value": "",
-                "disabled": false,
-                "flex": true,
-                "next": ""
-            }
-        ]
-    },
-    {
-        "id": "style",
-        "title": "Nous allons faire rapide & simple",
-        "questions": [
-            {
-                "key": "T01",
-                "text": "Quels styles de décoration vous inspirent le plus ?",
-                "byline": "Comprendre votre style nous aide à choisir les pièces qui conviennent le mieux à votre projet.",
-                "completed": false,
-                "type": "style-choice",
-                "items": [],
-                "value": "",
-                "disabled": false,
-                "flex": true,                
-                "next": ""
-            },
-            {
-                "key": "T02",
-                "text": "Besoin de plus d'inspiration ?",
-                "byline": "Vous avez la possibilité d'apporter votre propre touche d'inspiration en important des images.",
-                "completed": false,
-                "type": "checkbox",
-                "items": ["Oui, j'apporte ma touche d'inspiration."],
-                "value": "",
-                "disabled": false,
-                "next": ""
-            }
-        ]
-    },
-    {
-        "id": "project",
-        "title": "Maintenant, parlons de votre projet !",
-        "questions": [
-            {
-                "key": "P01",
-                "text": "Dans quel type du bien habitez-vous ?",
-                "byline": "",
-                "completed": true,
-                "type": "radio",
-                "items": [
-                    "Maison",
-                    "Appartement"
-                ],
-                "value": "Maison",
-                "disabled": false,
-                "next": "P02"
-            },
-            {
-                "key": "P02",
-                "text": "Êtes-vous propriétaire ou locataire de votre résidence ?",
-                "byline": "Cela nous aide à savoir quel type de changements nous pourrions vous apporter.",
-                "completed": false,
-                "type": "radio",
-                "items": [
-                    "Propriétaire",
-                    "Locataire"
-                ],
-                "next": "P03"
-            },
-            {
-                "key": "P03",
-                "text": "Dites-nous ce que vous pensez actuellement de votre espace ?",
-                "byline": "",
-                "completed": false,
-                "type": "radio",
-                "items": [
-                    "Espace vide",
-                    "A mi-chemin",
-                    "Juste besoin d'amour"
-                ],
-                "disabled": false,
-                "next": "P04"
-            },
-            {
-                "key": "P04",
-                "text": "Quand avez-vous besoin de votre pièce parfaite ?",
-                "byline": "",
-                "completed": false,
-                "type": "radio",
-                "items": [
-                    "Au plus vite",
-                    "Bientôt",
-                    "Pas de précipitation"
-                ],
-                "disabled": false,
-                "next": "P05"
-            },
-            {
-                "key": "P05",
-                "text": "Enfin, concernant votre budget , où pensez-vous arriver?",
-                "byline": "",
-                "completed": false,
-                "type": "radio",
-                "items": [
-                    "Econome",
-                    "Plus ou moins",
-                    "Peu importe"
-                ],
-                "disabled": true,
-                "next": "undefined"
-            }
-        ]
-    }
-]
+{
+    "sections": [
+        {
+            "id": "start",
+            "title": "Nous allons faire rapide & simple",
+            "questions": [
+                {
+                    "key": "S01",
+                    "text": "Quelle(s) pièce(s) souhaitez-vous aménager ?",
+                    "byline": "Votre projet comprend plusieurs pièces ? Vous pouvez en sélectionnez autant que vous voulez dans le cadre du forfait multi-pièces.",
+                    "completed": false,
+                    "type": "room-choice",
+                    "items": [],
+                    "value": "",
+                    "disabled": false,
+                    "flex": true,
+                    "next": ""
+                }
+            ]
+        },
+        {
+            "id": "style",
+            "title": "Nous allons faire rapide & simple",
+            "questions": [
+                {
+                    "key": "T01",
+                    "text": "Quels styles de décoration vous inspirent le plus ?",
+                    "byline": "Comprendre votre style nous aide à choisir les pièces qui conviennent le mieux à votre projet.",
+                    "completed": false,
+                    "type": "style-choice",
+                    "items": [],
+                    "value": "",
+                    "disabled": false,
+                    "flex": true,
+                    "next": ""
+                },
+                {
+                    "key": "T02",
+                    "text": "Besoin de plus d'inspiration ?",
+                    "byline": "Vous avez la possibilité d'apporter votre propre touche d'inspiration en important des images.",
+                    "completed": false,
+                    "type": "checkbox",
+                    "items": [
+                        "Oui, j'apporte ma touche d'inspiration."
+                    ],
+                    "value": "",
+                    "disabled": false,
+                    "next": ""
+                }
+            ]
+        },
+        {
+            "id": "project",
+            "title": "Maintenant, parlons de votre projet !",
+            "questions": [
+                {
+                    "key": "P01",
+                    "text": "Dans quel type du bien habitez-vous ?",
+                    "byline": "",
+                    "completed": true,
+                    "type": "radio",
+                    "items": [
+                        "Maison",
+                        "Appartement"
+                    ],
+                    "value": "Maison",
+                    "disabled": false,
+                    "next": "P02"
+                },
+                {
+                    "key": "P02",
+                    "text": "Êtes-vous propriétaire ou locataire de votre résidence ?",
+                    "byline": "Cela nous aide à savoir quel type de changements nous pourrions vous apporter.",
+                    "completed": false,
+                    "type": "radio",
+                    "items": [
+                        "Propriétaire",
+                        "Locataire"
+                    ],
+                    "next": "P03"
+                },
+                {
+                    "key": "P03",
+                    "text": "Dites-nous ce que vous pensez actuellement de votre espace ?",
+                    "byline": "",
+                    "completed": false,
+                    "type": "radio",
+                    "items": [
+                        "Espace vide",
+                        "A mi-chemin",
+                        "Juste besoin d'amour"
+                    ],
+                    "disabled": false,
+                    "next": "P04"
+                },
+                {
+                    "key": "P04",
+                    "text": "Quand avez-vous besoin de votre pièce parfaite ?",
+                    "byline": "",
+                    "completed": false,
+                    "type": "radio",
+                    "items": [
+                        "Au plus vite",
+                        "Bientôt",
+                        "Pas de précipitation"
+                    ],
+                    "disabled": false,
+                    "next": "P05"
+                },
+                {
+                    "key": "P05",
+                    "text": "Enfin, concernant votre budget , où pensez-vous arriver?",
+                    "byline": "",
+                    "completed": false,
+                    "type": "radio",
+                    "items": [
+                        "Econome",
+                        "Plus ou moins",
+                        "Peu importe"
+                    ],
+                    "disabled": true,
+                    "next": "undefined"
+                }
+            ]
+        }
+    ]
+}
