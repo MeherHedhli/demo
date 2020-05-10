@@ -1,7 +1,7 @@
 {
   "sections": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    { "id": "start", "title": "Nous allons faire rapide & simple" },
+    { "id": "style", "title": "Nous allons faire rapide & simple" },
+    { "id": "projet", "title": "Maintenant, parlons de votre projet !" }
   ]
 }
