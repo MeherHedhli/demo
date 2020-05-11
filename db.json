@@ -57,13 +57,12 @@
                     "key": "P01",
                     "text": "Dans quel type du bien habitez-vous ?",
                     "byline": "",
-                    "completed": true,
+                    "completed": false,
                     "type": "radio",
                     "items": [
                         "Maison",
                         "Appartement"
                     ],
-                    "value": "Maison",
                     "disabled": false,
                     "next": "P02"
                 },
@@ -77,6 +76,7 @@
                         "Propriétaire",
                         "Locataire"
                     ],
+                    "disabled": true,
                     "next": "P03"
                 },
                 {
@@ -90,7 +90,7 @@
                         "A mi-chemin",
                         "Juste besoin d'amour"
                     ],
-                    "disabled": false,
+                    "disabled": true,
                     "next": "P04"
                 },
                 {
@@ -104,7 +104,7 @@
                         "Bientôt",
                         "Pas de précipitation"
                     ],
-                    "disabled": false,
+                    "disabled": true,
                     "next": "P05"
                 },
                 {
