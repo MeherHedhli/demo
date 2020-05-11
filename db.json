@@ -32,7 +32,7 @@
                     "value": "",
                     "disabled": false,
                     "flex": true,
-                    "next": "T02"
+                    "next": ""
                 },
                 {
                     "key": "T02",
@@ -45,6 +45,18 @@
                     ],
                     "value": "",
                     "disabled": false,
+                    "next": "T03"
+                },
+                {
+                    "key": "T03",
+                    "text": "Partagez nous vos inspirations.",
+                    "byline": "Importez jusqu'à 5 images de format PNG, JPEG ou SVG et de taille maxmimum 3M.",
+                    "completed": false,
+                    "type": "image-uploader",
+                    "items": [],
+                    "value": "",
+                    "hidden": true,
+                    "disabled": true,
                     "next": ""
                 }
             ]
